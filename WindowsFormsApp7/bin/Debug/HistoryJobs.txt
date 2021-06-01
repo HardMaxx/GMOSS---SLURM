@@ -1,0 +1,171 @@
+14241492;EdiN-P-942-Spliting;BaseFolder/;04/09/2020 23:48:12;QuerySpliting
+14241499;EdiN-S-932-Spliting;BaseFolder/;04/09/2020 23:48:56;QuerySpliting
+14241505;EdiN-001;AAzDzielk/;04/09/2020 23:49:28;test od edycji pls dzialaj
+14241506;EdiN-002;AAzDzielk/;04/09/2020 23:49:28;test od edycji pls dzialaj
+14241507;EdiN-003;AAzDzielk/;04/09/2020 23:49:28;test od edycji pls dzialaj
+14241508;EdiN-004;AAzDzielk/;04/09/2020 23:49:28;test od edycji pls dzialaj
+14241509;EdiN-005;AAzDzielk/;04/09/2020 23:49:29;test od edycji pls dzialaj
+14241724;EdiNlol-001;AAzDzielk/;04/10/2020 00:32:17;test od edycji pls dzialaj second
+14241725;EdiNlol-002;AAzDzielk/;04/10/2020 00:32:18;test od edycji pls dzialaj second
+14241726;EdiNlol-003;AAzDzielk/;04/10/2020 00:32:21;test od edycji pls dzialaj second
+14241727;EdiNlol-004;AAzDzielk/;04/10/2020 00:32:24;test od edycji pls dzialaj second
+14241729;EdiNlol-005;AAzDzielk/;04/10/2020 00:32:25;test od edycji pls dzialaj second
+14242236;nieSpli-001;AAzDzielk/;04/10/2020 03:37:23;nei dzielone 1 job
+14242237;nieSpli-002;AAzDzielk/;04/10/2020 03:37:24;nei dzielone 1 job
+14242238;nieSpli-003;AAzDzielk/;04/10/2020 03:37:24;nei dzielone 1 job
+14242239;nieSpli-004;AAzDzielk/;04/10/2020 03:37:24;nei dzielone 1 job
+14242240;nieSpli-005;AAzDzielk/;04/10/2020 03:37:24;nei dzielone 1 job
+14242242;SPnie;AAzDzielk/;04/10/2020 03:40:33;niedzileoen prosze
+14242243;dziel9-Indexing;Maski/;04/10/2020 03:41:27;Database indexing
+14242257;brakDz;blast/;04/10/2020 03:43:04;oj tak byczq bez dzielenia
+14246257;morki-Indexing;Maski/;04/10/2020 18:37:52;Database indexing
+14246258;morki-S-444-Spliting;Maski/;04/10/2020 18:38:00;QuerySpliting
+14246259;morki-001;AAzDzielk/;04/10/2020 18:38:10;Empty
+14246260;morki-002;AAzDzielk/;04/10/2020 18:38:10;Empty
+14246261;morki-003;AAzDzielk/;04/10/2020 18:38:10;Empty
+14246262;morki-004;AAzDzielk/;04/10/2020 18:38:12;Empty
+14246263;morki-005;AAzDzielk/;04/10/2020 18:38:13;Empty
+14246264;morki-006;AAzDzielk/;04/10/2020 18:38:13;Empty
+14246265;morki-007;AAzDzielk/;04/10/2020 18:38:15;Empty
+14246266;morki-008;AAzDzielk/;04/10/2020 18:38:15;Empty
+14246267;morki-009;AAzDzielk/;04/10/2020 18:38:15;Empty
+14246268;morki-010;AAzDzielk/;04/10/2020 18:38:17;Empty
+14246275;weP-P-12-Spliting;bazaIndeks/;04/10/2020 18:48:24;QuerySpliting
+14246276;weP-001;BaseFolder/;04/10/2020 18:48:33;we want P XD
+14246277;weP-002;BaseFolder/;04/10/2020 18:48:34;we want P XD
+14246278;weP-003;BaseFolder/;04/10/2020 18:48:34;we want P XD
+14246279;weP-004;BaseFolder/;04/10/2020 18:48:34;we want P XD
+14246280;weP-005;BaseFolder/;04/10/2020 18:48:34;we want P XD
+14246281;weP-006;BaseFolder/;04/10/2020 18:48:34;we want P XD
+14246285;weP-010;BaseFolder/;04/10/2020 18:48:35;we want P XD
+14246286;weP-011;BaseFolder/;04/10/2020 18:48:35;we want P XD
+14246287;weP-012;BaseFolder/;04/10/2020 18:48:36;we want P XD
+14246343;blastP-S-333-Spliting;JobBlast/;04/10/2020 18:59:43;QuerySpliting
+14246344;blastP-001;AAzDzielk/;04/10/2020 18:59:49;split na 333 sekwecnje
+14246345;blastP-002;AAzDzielk/;04/10/2020 18:59:49;split na 333 sekwecnje
+14246346;blastP-003;AAzDzielk/;04/10/2020 18:59:49;split na 333 sekwecnje
+14246347;blastP-004;AAzDzielk/;04/10/2020 18:59:49;split na 333 sekwecnje
+14246348;blastP-005;AAzDzielk/;04/10/2020 18:59:49;split na 333 sekwecnje
+14246349;blastP-006;AAzDzielk/;04/10/2020 18:59:50;split na 333 sekwecnje
+14246350;blastP-007;AAzDzielk/;04/10/2020 18:59:50;split na 333 sekwecnje
+14246351;blastP-008;AAzDzielk/;04/10/2020 18:59:50;split na 333 sekwecnje
+14246352;blastP-009;AAzDzielk/;04/10/2020 18:59:50;split na 333 sekwecnje
+14246353;blastP-010;AAzDzielk/;04/10/2020 18:59:51;split na 333 sekwecnje
+14246354;blastP-011;AAzDzielk/;04/10/2020 18:59:51;split na 333 sekwecnje
+14246355;blastP-012;AAzDzielk/;04/10/2020 18:59:51;split na 333 sekwecnje
+14246356;blastP-013;AAzDzielk/;04/10/2020 18:59:51;split na 333 sekwecnje
+14246690;blastB;blast/;04/10/2020 21:07:25;Launched again
+14246707;spliN;BaseFolder/;04/10/2020 21:08:26;Empty
+14246722;ParT-P-7-Spliting;JobBlast/;04/10/2020 21:10:00;QuerySpliting
+14246723;ParT-001;AAzDzielk/;04/10/2020 21:10:10;z part potem no split
+14246724;ParT-002;AAzDzielk/;04/10/2020 21:10:10;z part potem no split
+14246725;ParT-003;AAzDzielk/;04/10/2020 21:10:10;z part potem no split
+14246726;ParT-004;AAzDzielk/;04/10/2020 21:10:10;z part potem no split
+14246727;ParT-005;AAzDzielk/;04/10/2020 21:10:11;z part potem no split
+14246728;ParT-006;AAzDzielk/;04/10/2020 21:10:11;z part potem no split
+14246729;ParT-007;AAzDzielk/;04/10/2020 21:10:11;z part potem no split
+14246746;ulkiN;AAzDzielk/;04/10/2020 21:11:23;bez splita po part 7
+14246752;ulkiN-001;AAzDzielk/;04/10/2020 21:12:12;bez splita po part 7
+14246753;ulkiN-002;AAzDzielk/;04/10/2020 21:12:13;bez splita po part 7
+14246754;ulkiN-003;AAzDzielk/;04/10/2020 21:12:13;bez splita po part 7
+14246755;ulkiN-004;AAzDzielk/;04/10/2020 21:12:13;bez splita po part 7
+14246756;ulkiN-005;AAzDzielk/;04/10/2020 21:12:13;bez splita po part 7
+14246757;ulkiN-006;AAzDzielk/;04/10/2020 21:12:14;bez splita po part 7
+14246758;ulkiN-007;AAzDzielk/;04/10/2020 21:12:14;bez splita po part 7
+14246793;piepie-S-555-Spliting;blast/;04/10/2020 21:19:37;QuerySpliting
+14246808;piepie-001;AAzDzielk/;04/10/2020 21:28:05;555 S na plik potem solo potemr znow parts
+14246809;piepie-002;AAzDzielk/;04/10/2020 21:28:05;555 S na plik potem solo potemr znow parts
+14246810;piepie-003;AAzDzielk/;04/10/2020 21:28:08;555 S na plik potem solo potemr znow parts
+14246811;piepie-004;AAzDzielk/;04/10/2020 21:28:08;555 S na plik potem solo potemr znow parts
+14246812;piepie-005;AAzDzielk/;04/10/2020 21:28:10;555 S na plik potem solo potemr znow parts
+14246813;piepie-006;AAzDzielk/;04/10/2020 21:28:11;555 S na plik potem solo potemr znow parts
+14246814;piepie-007;AAzDzielk/;04/10/2020 21:28:13;555 S na plik potem solo potemr znow parts
+14246815;piepie-008;AAzDzielk/;04/10/2020 21:28:13;555 S na plik potem solo potemr znow parts
+14246819;solko;JobBlast/;04/10/2020 21:30:00;solo po 555 S na plik
+14246842;umlik-P-4-Spliting;bazaIndeks/;04/10/2020 21:59:36;QuerySpliting
+14246843;umlik-001;AAzDzielk/;04/10/2020 22:03:09;podzial pliku na 4 potem bez splita
+14246844;umlik-002;AAzDzielk/;04/10/2020 22:03:09;podzial pliku na 4 potem bez splita
+14246845;umlik-003;AAzDzielk/;04/10/2020 22:03:11;podzial pliku na 4 potem bez splita
+14246846;umlik-004;AAzDzielk/;04/10/2020 22:03:11;podzial pliku na 4 potem bez splita
+14246847;bezA;AAzDzielk/;04/10/2020 22:03:54; bez splita po podzial pliku na 4 potem
+14246854;bezA;;04/10/2020 22:23:32; bez splita po podzial pliku na 4 potem
+14246855;bezAC;;04/10/2020 22:25:07; bez splita po podzial pliku na 4 potem
+14247012;s2pliN;BaseFolder/;04/10/2020 22:34:39;Empty
+14247099;s2pliN;BaseFolder/;04/10/2020 22:55:01;hehe3
+14247104;XDA;AAzDzielk/;04/10/2020 22:57:36;o tak bez splita
+14247106;XD2A;AAzDzielk/;04/10/2020 22:58:57;o tak bez splita 2
+14247109;XD3A;AAzDzielk/;04/10/2020 23:05:41;o tak bez splita 3
+14247112;podzialS-S-1222-Spliting;BaseFolder/;04/10/2020 23:08:11;QuerySpliting
+14247113;podzialS-001;AAzDzielk/;04/10/2020 23:08:22;bo tak o robimy ma 1000 per plik
+14247114;podzialS-002;AAzDzielk/;04/10/2020 23:08:22;bo tak o robimy ma 1000 per plik
+14247115;podzialS-003;AAzDzielk/;04/10/2020 23:08:22;bo tak o robimy ma 1000 per plik
+14247116;podzialS-004;AAzDzielk/;04/10/2020 23:08:22;bo tak o robimy ma 1000 per plik
+14247117;po2dzialS-001;AAzDzielk/;04/10/2020 23:10:13;poprakw 1222 per plik bylo
+14247118;po2dzialS-002;AAzDzielk/;04/10/2020 23:10:14;poprakw 1222 per plik bylo
+14247119;po2dzialS-003;AAzDzielk/;04/10/2020 23:10:14;poprakw 1222 per plik bylo
+14247120;po2dzialS-004;AAzDzielk/;04/10/2020 23:10:14;poprakw 1222 per plik bylo
+14247122;adejNo;JobBlast/;04/10/2020 23:12:15;teraz po splicie i powtroce splita daj raz jeszcze bez splita
+14247129;a2dejNo;JobBlast/;04/10/2020 23:15:35;teraz po splicie i powtroce splita daj raz jeszcze bez splita 2
+14247130;po3dzialS-001;AAzDzielk/;04/10/2020 23:15:54;bo tak o robimy ma 1000 per plik a jendka 1222
+14247131;po3dzialS-002;AAzDzielk/;04/10/2020 23:15:54;bo tak o robimy ma 1000 per plik a jendka 1222
+14247132;po3dzialS-003;AAzDzielk/;04/10/2020 23:15:54;bo tak o robimy ma 1000 per plik a jendka 1222
+14247133;po3dzialS-004;AAzDzielk/;04/10/2020 23:15:55;bo tak o robimy ma 1000 per plik a jendka 1222
+14247135;indexA-Indexing;cpfiles/;04/10/2020 23:20:11;Database indexing
+14247140;in2dexA-001;AAzDzielk/;04/10/2020 23:20:40;z indexing222iem i cos tam
+14247141;in2dexA-002;AAzDzielk/;04/10/2020 23:20:40;z indexing222iem i cos tam
+14247142;in2dexA-003;AAzDzielk/;04/10/2020 23:20:40;z indexing222iem i cos tam
+14247149;jokeR-Indexing;bazaIndeks/;04/10/2020 23:42:12;Database indexing
+14247150;jokeR-P-5-Spliting;bazaIndeks/;04/10/2020 23:42:22;QuerySpliting
+14247151;jokeR-001;AAzDzielk/;04/10/2020 23:42:40;bo tak czy sie refreszuje heh
+14247153;jokeR-003;AAzDzielk/;04/10/2020 23:42:40;bo tak czy sie refreszuje heh
+14247154;jokeR-004;AAzDzielk/;04/10/2020 23:42:40;bo tak czy sie refreszuje heh
+14247155;jokeR-005;AAzDzielk/;04/10/2020 23:42:41;bo tak czy sie refreszuje heh
+14248686;weP-009;BaseFolder/;04/11/2020 16:50:26;Launched again
+14248710;covid-Indexing;Maski/;04/11/2020 17:41:53;Database indexing
+14248711;covid-P-19-Spliting;Maski/;04/11/2020 17:41:59;QuerySpliting
+14248713;covid-001;AAzDzielk/;04/11/2020 17:57:30;liczby covida xd
+14248714;covid-002;AAzDzielk/;04/11/2020 17:57:31;liczby covida xd
+14248715;covid-003;AAzDzielk/;04/11/2020 17:57:31;liczby covida xd
+14248716;covid-004;AAzDzielk/;04/11/2020 17:57:31;liczby covida xd
+14248717;covid-005;AAzDzielk/;04/11/2020 17:57:31;liczby covida xd
+14248718;covid-006;AAzDzielk/;04/11/2020 17:57:32;liczby covida xd
+14248719;covid-007;AAzDzielk/;04/11/2020 17:57:32;liczby covida xd
+14248720;covid-008;AAzDzielk/;04/11/2020 17:57:32;liczby covida xd
+14248721;covid-009;AAzDzielk/;04/11/2020 17:57:32;liczby covida xd
+14248722;covid-010;AAzDzielk/;04/11/2020 17:57:33;liczby covida xd
+14248723;covid-011;AAzDzielk/;04/11/2020 17:57:33;liczby covida xd
+14248724;covid-012;AAzDzielk/;04/11/2020 17:57:33;liczby covida xd
+14248725;covid-013;AAzDzielk/;04/11/2020 17:57:33;liczby covida xd
+14248726;covid-014;AAzDzielk/;04/11/2020 17:57:34;liczby covida xd
+14248727;covid-015;AAzDzielk/;04/11/2020 17:57:34;liczby covida xd
+14248728;covid-016;AAzDzielk/;04/11/2020 17:57:34;liczby covida xd
+14248729;covid-017;AAzDzielk/;04/11/2020 17:57:34;liczby covida xd
+14248730;covid-018;AAzDzielk/;04/11/2020 17:57:35;liczby covida xd
+14248731;covid-019;AAzDzielk/;04/11/2020 17:57:35;liczby covida xd
+14251660;LELKA-P-5-Spliting;JobBlast/;04/12/2020 00:12:21;QuerySpliting
+14251661;LELKA-001;BaseFolder/;04/12/2020 00:40:53;czy mozna uruchomic z tego inne zadania??
+14251662;LELKA-002;BaseFolder/;04/12/2020 00:40:54;czy mozna uruchomic z tego inne zadania??
+14251663;LELKA-003;BaseFolder/;04/12/2020 00:40:54;czy mozna uruchomic z tego inne zadania??
+14251664;LELKA-004;BaseFolder/;04/12/2020 00:40:54;czy mozna uruchomic z tego inne zadania??
+14251665;LELKA-005;BaseFolder/;04/12/2020 00:40:54;czy mozna uruchomic z tego inne zadania??
+14260558;otak-Indexing;JobBlast/;04/15/2020 14:01:25;Database indexing
+14260559;otak-S-888-Spliting;JobBlast/;04/15/2020 14:01:31;QuerySpliting
+14260560;otak-001;AAzDzielk/;04/15/2020 14:03:44;hehe
+14260561;otak-002;AAzDzielk/;04/15/2020 14:03:44;hehe
+14260562;otak-003;AAzDzielk/;04/15/2020 14:03:45;hehe
+14260563;otak-004;AAzDzielk/;04/15/2020 14:03:45;hehe
+14260564;otak-005;AAzDzielk/;04/15/2020 14:03:45;hehe
+14260573;o2tak-001;AAzDzielk/;04/15/2020 14:34:38;hehe x2
+14260574;o2tak-002;AAzDzielk/;04/15/2020 14:34:38;hehe x2
+14260575;o2tak-003;AAzDzielk/;04/15/2020 14:34:39;hehe x2
+14260576;o2tak-004;AAzDzielk/;04/15/2020 14:34:39;hehe x2
+14260577;o2tak-005;AAzDzielk/;04/15/2020 14:34:39;hehe x2
+14270923;ota2k-001;AAzDzielk/;04/17/2020 10:00:50;hehe
+14270924;ota2k-002;AAzDzielk/;04/17/2020 10:00:50;hehe
+14270925;ota2k-003;AAzDzielk/;04/17/2020 10:00:51;hehe
+14270926;ota2k-004;AAzDzielk/;04/17/2020 10:00:51;hehe
+14270927;ota2k-005;AAzDzielk/;04/17/2020 10:00:51;hehe
+14271594;pow-P-4-Spliting;JobBlast/;04/17/2020 13:07:27;QuerySpliting
+14271595;pow-001;AAzDzielk/;04/17/2020 13:07:41;powieksze biology_n
+14271596;pow-002;AAzDzielk/;04/17/2020 13:07:41;powieksze biology_n
+14271598;pow-004;AAzDzielk/;04/17/2020 13:07:41;powieksze biology_n

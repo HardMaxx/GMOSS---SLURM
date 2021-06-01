@@ -1,0 +1,11 @@
+Skalowanie okien – przy zmianie okna zawartość nie dostosowuje się do nowego rozmiaru. DONE
+
+Przycisk 'zakoncz' dla każdego okna/ DONE
+
+Przycisk 'Moje dane' zamienić na nazwę użytkownika.  DONE
+
+Po klinięciu na zadanie w liście powinny pojawić się szczegóły (np. Scontrol show job _jobid_)  DONE
+
+Graficzne przedstawienie statystyki zadan dla wybranego użytkownika DONE
+
+Przycisk ‚scancel’ dla wybranych z listy zadań oraz ‚scancel all’ dla wszystkich zadań (wymaga potwierdzenia) dla zalogowanego użytkownika.  DONE

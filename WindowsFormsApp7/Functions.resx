@@ -1,0 +1,1514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;labelPendingJobsU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelLastUpdateSQUEUE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonLogOut.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelBorderStyle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSqueueList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonSystemSum.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;labelCompleteJobsU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 22</value>
+  </data>
+  <data name="&gt;&gt;labelCompleteJobsU.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;labelTotalJobsU.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonUserMyData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_.Parent" xml:space="preserve">
+    <value>panelBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodeList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelConfigureJobsU.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxState.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelRunningJobsU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="&gt;&gt;panelBorderStyle.Name" xml:space="preserve">
+    <value>panelBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panelBorderStyle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;labelLastUpdateSQUEUE.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;buttonLogOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonHistory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxName.Name" xml:space="preserve">
+    <value>checkBoxName</value>
+  </data>
+  <data name="labelConfigureJobsU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBoxNodes.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;buttonLogOut.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTime.Name" xml:space="preserve">
+    <value>checkBoxTime</value>
+  </data>
+  <data name="buttonSqueueList.Text" xml:space="preserve">
+    <value>Squeue List</value>
+  </data>
+  <data name="labelPendingJobsU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;buttonSqueueList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonLogOut.Name" xml:space="preserve">
+    <value>buttonLogOut</value>
+  </data>
+  <data name="buttonUserMyData.Text" xml:space="preserve">
+    <value>My data</value>
+  </data>
+  <data name="&gt;&gt;buttonHistory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>972, 54</value>
+  </data>
+  <data name="checkBoxName.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelRunningJobsU.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="buttonM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxName.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="checkBoxPartition.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="labelConfigureJobsU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="buttonSystemSum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 0</value>
+  </data>
+  <data name="labelLastUpdateSQUEUE.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;buttonM.Name" xml:space="preserve">
+    <value>buttonM</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxState.Text" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1055, 80</value>
+  </data>
+  <data name="buttonSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 0</value>
+  </data>
+  <data name="buttonSqueueList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>942, 0</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="labelLastUpdateSQUEUE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 28</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPartition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;buttonSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonX.Name" xml:space="preserve">
+    <value>buttonX</value>
+  </data>
+  <data name="labelConfigureJobsU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonNewJob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>861, 0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodes.Name" xml:space="preserve">
+    <value>checkBoxNodes</value>
+  </data>
+  <data name="checkBoxUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panelControlLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1187, 46</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="dataGridView3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="checkBoxPartition.Text" xml:space="preserve">
+    <value>Partition</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 21</value>
+  </data>
+  <data name="buttonM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonCancelMode.Text" xml:space="preserve">
+    <value>Cancel Mode</value>
+  </data>
+  <data name="checkBoxName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;labelPendingJobsU.Name" xml:space="preserve">
+    <value>labelPendingJobsU</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLastUpdateSQUEUE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonLogOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1104, 0</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;labelTotalJobsU.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelPendingJobsU.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelRunningJobsU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLastUpdateSQUEUE.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxTimeLimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="dataGridView3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 387</value>
+  </data>
+  <data name="labelConfigureJobsU.Text" xml:space="preserve">
+    <value>Configure Jobs:</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="buttonStopJobs.Text" xml:space="preserve">
+    <value>Stop Jobs</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPartition.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonResize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelPendingJobsU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="&gt;&gt;buttonNewJob.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPartition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxTimeLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 408</value>
+  </data>
+  <data name="panelControlLocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="buttonX.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxTime.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;labelLastUpdateSQUEUE.Name" xml:space="preserve">
+    <value>labelLastUpdateSQUEUE</value>
+  </data>
+  <data name="button_.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;panelBorderStyle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelMode.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="buttonLogOut.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 468</value>
+  </data>
+  <data name="checkBoxTimeLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="checkBoxName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTimeLimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxPartition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 477</value>
+  </data>
+  <data name="buttonHistory.Text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="checkBoxUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 339</value>
+  </data>
+  <data name="buttonSqueueList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Name" xml:space="preserve">
+    <value>backgroundWorker2</value>
+  </data>
+  <data name="checkBoxNodeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 454</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonHistory.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="buttonResize.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="&gt;&gt;labelConfigureJobsU.Name" xml:space="preserve">
+    <value>labelConfigureJobsU</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonM.Text" xml:space="preserve">
+    <value>[]</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;labelRunningJobsU.Name" xml:space="preserve">
+    <value>labelRunningJobsU</value>
+  </data>
+  <data name="&gt;&gt;buttonX.Parent" xml:space="preserve">
+    <value>panelBorderStyle</value>
+  </data>
+  <data name="buttonSqueueList.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;buttonX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTotalJobsU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonHistory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="checkBoxState.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1189, 560</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 5</value>
+  </data>
+  <data name="&gt;&gt;buttonStopJobs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonNewJob.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelLastUpdateSQUEUE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="checkBoxPartition.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="buttonX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="checkBoxNodes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="buttonX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1162, 1</value>
+  </data>
+  <data name="checkBoxUser.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="&gt;&gt;buttonResize.Name" xml:space="preserve">
+    <value>buttonResize</value>
+  </data>
+  <data name="&gt;&gt;buttonStopJobs.Name" xml:space="preserve">
+    <value>buttonStopJobs</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="labelLastUpdateSQUEUE.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUser.Name" xml:space="preserve">
+    <value>checkBoxUser</value>
+  </data>
+  <data name="dataGridView3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 75</value>
+  </data>
+  <data name="checkBoxState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTimeLimit.Name" xml:space="preserve">
+    <value>checkBoxTimeLimit</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUser.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBoxNodeList.Text" xml:space="preserve">
+    <value>NodeList</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3.Name" xml:space="preserve">
+    <value>dataGridView3</value>
+  </data>
+  <data name="&gt;&gt;labelConfigureJobsU.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxNodeList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;button_.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="labelPendingJobsU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>View Control</value>
+  </data>
+  <data name="&gt;&gt;labelCompleteJobsU.Name" xml:space="preserve">
+    <value>labelCompleteJobsU</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 16</value>
+  </data>
+  <data name="&gt;&gt;checkBoxJob.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSystemSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxTimeLimit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="buttonLogOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 144</value>
+  </data>
+  <data name="&gt;&gt;buttonUserMyData.Name" xml:space="preserve">
+    <value>buttonUserMyData</value>
+  </data>
+  <data name="&gt;&gt;checkBoxState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonUserMyData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTotalJobsU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBoxName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="button_.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;buttonUserMyData.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="checkBoxNodes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonResize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_.Name" xml:space="preserve">
+    <value>button_</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBoxTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="checkBoxName.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="checkBoxJob.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="labelCompleteJobsU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonStopJobs.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTimeLimit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelRunningJobsU.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonNewJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTotalJobsU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="buttonNewJob.Text" xml:space="preserve">
+    <value>New Job</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxNodeList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxJob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 17</value>
+  </data>
+  <data name="buttonNewJob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;buttonSystemSum.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;labelTotalJobsU.Name" xml:space="preserve">
+    <value>labelTotalJobsU</value>
+  </data>
+  <data name="buttonX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 22</value>
+  </data>
+  <data name="labelPendingJobsU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBoxUser.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="buttonCancelMode.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="labelRunningJobsU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="labelConfigureJobsU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 72</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelConfigureJobsU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="&gt;&gt;labelRunningJobsU.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonSettings.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;buttonUserMyData.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonResize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;buttonLogOut.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodeList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxJob.Text" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="buttonM.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;panelControlLocation.Name" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;labelPendingJobsU.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="buttonSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="labelConfigureJobsU.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxNodeList.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="button_.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="buttonSqueueList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;buttonSystemSum.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 100</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="checkBoxNodes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 431</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 4</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button_.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1106, 1</value>
+  </data>
+  <data name="buttonStopJobs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 21</value>
+  </data>
+  <data name="&gt;&gt;buttonSettings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;labelLastUpdateSQUEUE.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dataGridView3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTimeLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonSettings.Name" xml:space="preserve">
+    <value>buttonSettings</value>
+  </data>
+  <data name="panelControlLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;checkBoxState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="checkBoxState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 362</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1055, 274</value>
+  </data>
+  <data name="labelCompleteJobsU.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="labelCompleteJobsU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="checkBoxPartition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="&gt;&gt;labelCompleteJobsU.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelTotalJobsU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="panelBorderStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="buttonX.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="checkBoxNodes.Text" xml:space="preserve">
+    <value>Nodes</value>
+  </data>
+  <data name="buttonStopJobs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelCompleteJobsU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;buttonM.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonStopJobs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelControlLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;labelPendingJobsU.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button_.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 22</value>
+  </data>
+  <data name="labelTotalJobsU.Text" xml:space="preserve">
+    <value>Total Jobs:</value>
+  </data>
+  <data name="buttonCancelMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="buttonResize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelMode.Name" xml:space="preserve">
+    <value>buttonCancelMode</value>
+  </data>
+  <data name="checkBoxUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="checkBoxTimeLimit.Text" xml:space="preserve">
+    <value>TimeLimit</value>
+  </data>
+  <data name="labelPendingJobsU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;labelTotalJobsU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelBorderStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonUserMyData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonResize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1172, 549</value>
+  </data>
+  <data name="checkBoxState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="labelRunningJobsU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonNewJob.Name" xml:space="preserve">
+    <value>buttonNewJob</value>
+  </data>
+  <data name="&gt;&gt;buttonHistory.Name" xml:space="preserve">
+    <value>buttonHistory</value>
+  </data>
+  <data name="&gt;&gt;labelConfigureJobsU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxState.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="checkBoxName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="&gt;&gt;buttonSqueueList.Parent" xml:space="preserve">
+    <value>panelControlLocation</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxJob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="checkBoxTimeLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="&gt;&gt;buttonSystemSum.Name" xml:space="preserve">
+    <value>buttonSystemSum</value>
+  </data>
+  <data name="checkBoxUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxJob.Name" xml:space="preserve">
+    <value>checkBoxJob</value>
+  </data>
+  <data name="labelRunningJobsU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxJob.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="buttonUserMyData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 18</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="labelCompleteJobsU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 60</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelTotalJobsU.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonSystemSum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="checkBoxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 293</value>
+  </data>
+  <data name="checkBoxJob.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonResize.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="buttonLogOut.Text" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="labelCompleteJobsU.Text" xml:space="preserve">
+    <value>Complete Jobs:</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxPartition.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelRunningJobsU.Text" xml:space="preserve">
+    <value>Running Jobs:</value>
+  </data>
+  <data name="buttonNewJob.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="buttonHistory.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="labelTotalJobsU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;panelBorderStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelControlLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxJob.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="checkBoxNodeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelControlLocation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSystemSum.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="checkBoxTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="buttonUserMyData.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;buttonResize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="buttonM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;buttonSqueueList.Name" xml:space="preserve">
+    <value>buttonSqueueList</value>
+  </data>
+  <data name="&gt;&gt;buttonM.Parent" xml:space="preserve">
+    <value>panelBorderStyle</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodeList.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelRunningJobsU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="checkBoxNodes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="checkBoxTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelControlLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="panelBorderStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;button_.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelControlLocation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPartition.Name" xml:space="preserve">
+    <value>checkBoxPartition</value>
+  </data>
+  <data name="checkBoxTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 385</value>
+  </data>
+  <data name="button_.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxState.Name" xml:space="preserve">
+    <value>checkBoxState</value>
+  </data>
+  <data name="panelBorderStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1189, 26</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridView3.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="buttonHistory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 0</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>List of available users</value>
+  </data>
+  <data name="labelCompleteJobsU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 55</value>
+  </data>
+  <data name="buttonM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1134, 1</value>
+  </data>
+  <data name="checkBoxJob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 316</value>
+  </data>
+  <data name="labelPendingJobsU.Text" xml:space="preserve">
+    <value>Pending Jobs: </value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 82</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonSystemSum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="checkBoxTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="buttonCancelMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="&gt;&gt;checkBoxNodeList.Name" xml:space="preserve">
+    <value>checkBoxNodeList</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;checkBoxName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonHistory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="buttonStopJobs.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="buttonNewJob.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <metadata name="backgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 17</value>
+  </metadata>
+</root>
