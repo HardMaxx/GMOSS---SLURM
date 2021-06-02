@@ -67,9 +67,9 @@ List the ready features here:
 
 ` sudo apt install xcb `
 
-
-## Usage
 <!--
+## Usage
+
 How does one go about using it?
 Provide various use cases and code examples here.
 
