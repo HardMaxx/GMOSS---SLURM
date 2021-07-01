@@ -16,19 +16,18 @@ using System.Windows.Forms;
 
 
 
-//todo
-//pliki dodane czy nie, spradzanie czy sa jkaies pliki done2
-//zapamietyqwac jobid i nazwy by potem sprawdzac standarderror //sacct -u tomaszkuzma --format=JobID,JobName,Submit,State |grep -v '.ba+' done2
-//dodac form hostory do jobid nazwa error check done2
-//sbatch run_loko.sh >wynik.txt to daje jobid nw jeszcze  done2
-//dodawanie wyniku z sbatch do katalogu domowego po wykonaniu? done
+//TODO - pliki dodane czy nie, spradzanie czy sa jkaies pliki done2
+//TODO - zapamietyqwac jobid i nazwy by potem sprawdzac standarderror //sacct -u tomaszkuzma --format=JobID,JobName,Submit,State |grep -v '.ba+' done2
+//TODO -dodac form hostory do jobid nazwa error check done2
+//TODO -sbatch run_loko.sh >wynik.txt to daje jobid nw jeszcze  done2
+//TODO -dodawanie wyniku z sbatch do katalogu domowego po wykonaniu? done
 
-    //zmiana sposobu dodawania plikow i tworzenia nowych katalogow //done
-    //zmiana sposobu przenoszenia plikow do tmp, moze wybieranie ich z foldera czy cos, a nie jak teraz caly folder (wybor recznie po dodani chyba) //done
-    //usuwanie jobow z historii 
-    //canselowanie jobaow(w przyszlosci wielu za jednym zamachem) z poziomu histori raczej
-    //kilkanie data z historii wyswietla plik??
-    //kilkanie na job id daje malyb podglad i opcje jakie mozna wykonac dla niej typu usun cancel itd
+//TODO -zmiana sposobu dodawania plikow i tworzenia nowych katalogow //done
+//TODO -zmiana sposobu przenoszenia plikow do tmp, moze wybieranie ich z foldera czy cos, a nie jak teraz caly folder (wybor recznie po dodani chyba) //done
+//TODO -usuwanie jobow z historii 
+//TODO -canselowanie jobaow(w przyszlosci wielu za jednym zamachem) z poziomu histori raczej
+//TODO -kilkanie data z historii wyswietla plik??
+//TODO -kilkanie na job id daje malyb podglad i opcje jakie mozna wykonac dla niej typu usun cancel itd
 
 namespace WindowsFormsApp7
 {
@@ -149,7 +148,7 @@ namespace WindowsFormsApp7
 
         }
 
-        //zwraca timelimit dla wybranej partycji
+        //giive back timelimit for a picked partition 
         public TimeSpan CheckTimeLimitPartition()
         {
             foreach (var item in bazaPartitionLimitSinfo)
@@ -168,13 +167,18 @@ namespace WindowsFormsApp7
 
         TimeClass timeByHandClass = new TimeClass();
         TimeClass timeLimitPartitionClass = new TimeClass();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="textBox"></param>
+        /// <param name="ClassTime"></param>
         public void StringToTime(string textBox, TimeClass ClassTime)
         {
 
-            if (textBox.Contains("-") && textBox[1].ToString() == "-" || Regex.Matches(textBox.ToString(), "-").Count == 1) //jesli zawiera - nie moze byc wiecejn niz 1
+            if (textBox.Contains("-") && textBox[1].ToString() == "-" || Regex.Matches(textBox.ToString(), "-").Count == 1) //if contain - cant be more then 1
             {
                 ClassTime.day = textBox[0].ToString();
-                if (textBox[1].ToString() != "-" && char.IsDigit(textBox[1]) && textBox[2].ToString() == "-") //jesli bedzie wiecej niz 9 dni i 2 znak jestv liczba
+                if (textBox[1].ToString() != "-" && char.IsDigit(textBox[1]) && textBox[2].ToString() == "-") //if more then 9 days i 2 characters  ius number
                 {
                     ClassTime.day = (ClassTime.day) + Convert.ToString(textBox[1]);
                 }
@@ -193,17 +197,17 @@ namespace WindowsFormsApp7
                 else
                     ClassTime.second = "0";
             }
-            else if (Regex.Matches(textBox.ToString(), "-").Count == 0) //nie zawiera -
+            else if (Regex.Matches(textBox.ToString(), "-").Count == 0) //dont contain -
             {
                 string[] separate = (textBox).Split(':');
-                if (separate.Length == 2)//jeśli nie ma godzin
+                if (separate.Length == 2)//if there are no hours
                 {
                     ClassTime.day = "0";
                     ClassTime.hour = "0";
                     ClassTime.minute = separate[0];
                     ClassTime.second = separate[1];
                 }
-                else //jelsi sa godziny
+                else //if there are hours
                 {
                     ClassTime.day = "0";
                     ClassTime.hour = separate[0];
@@ -225,7 +229,10 @@ namespace WindowsFormsApp7
                 ClassTime.second = "0";
             }
         }
-
+        /// <summary>
+        /// Check if the data is the int 
+        /// </summary>
+        /// <returns></returns>
         public bool GoodDate()
         {
             int number;

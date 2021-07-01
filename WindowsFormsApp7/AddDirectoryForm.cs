@@ -53,11 +53,7 @@ namespace WindowsFormsApp7
             }
             else
             {
-                //buttonResetDatagridView.Visible = false;
                 panelBorderStyle.Visible = false;
-                
-                //buttonResize.Visible = false;
-                // this.panelControlLocation.Location = new Point(0, 0);
             }
         }
 
