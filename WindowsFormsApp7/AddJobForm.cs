@@ -430,7 +430,10 @@ namespace WindowsFormsApp7
                 return true;
             }
         }
-
+        /// <summary>
+        /// Count files
+        /// </summary>
+        /// <returns></returns>
         public string countSplitedfFiles()
         { //zliczneie ilosci plikow
             string nrSplitedFilesCommand = String.Format("cd /tmp/lustre_shared/{0}/{1}{2}; ls -l . |egrep -c '^-'", Global.user, Global.directoryQueryLocation, Global.SplitedFilesQueryLocation);
